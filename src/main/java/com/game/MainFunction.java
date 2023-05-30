@@ -13,11 +13,9 @@ public class MainFunction {
 
         GameOfLife game = new GameOfLife(initialGrid);
         print(initialGrid);
-        System.out.println("=============");
+        
         print(game.nextGeneration());
-      //  print(game.nextGeneration());
-       // print(game.nextGeneration());
-      //  print(game.nextGeneration());
+      
 
 
     }
